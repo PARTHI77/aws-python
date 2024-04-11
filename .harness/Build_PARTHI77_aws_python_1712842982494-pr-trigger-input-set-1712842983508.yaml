@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PARTHI77_aws_python_1712842982494-pr-trigger-input-set
+  identifier: Build_PARTHI77_aws_python_1712842982494prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_PARTHI77_aws_python_1712842982494
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
