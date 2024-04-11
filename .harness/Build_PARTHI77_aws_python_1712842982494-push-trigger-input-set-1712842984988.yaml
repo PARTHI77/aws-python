@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PARTHI77_aws_python_1712842982494-push-trigger-input-set
+  identifier: Build_PARTHI77_aws_python_1712842982494pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_PARTHI77_aws_python_1712842982494
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
